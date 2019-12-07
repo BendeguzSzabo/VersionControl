@@ -61,6 +61,15 @@ namespace UserMaintenance {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hozzáad.
+        /// </summary>
+        internal static string Add {
+            get {
+                return ResourceManager.GetString("Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Vezetéknév.
         /// </summary>
         internal static string LastName {
@@ -70,7 +79,7 @@ namespace UserMaintenance {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Kiír.
+        ///   Looks up a localized string similar to Fájlba írás.
         /// </summary>
         internal static string Write {
             get {
